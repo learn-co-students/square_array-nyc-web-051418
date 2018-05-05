@@ -5,3 +5,9 @@ def square_array(array)
   end
   new_array
 end
+
+
+#same problem using collect instead of each
+#def square_array(array)
+#  array.collect{|number| number ** 2}
+#end
